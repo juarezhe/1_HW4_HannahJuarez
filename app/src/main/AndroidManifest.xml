@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.1_HW4_HannahJuarez">
+        <activity android:name=".LibraryActivity"></activity>
+        <activity android:name=".PermissionActivity" />
+        <activity android:name=".APIActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
